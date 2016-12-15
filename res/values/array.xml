@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+ 	<string-array  name="ContextMenu">
+        <item name="1">Edit</item>
+        <item name="2">Delete</item>
+    </string-array>
+    
+	<string-array  name="ContextMenuVal">
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    
+</resources>

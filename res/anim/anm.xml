@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@android:integer/config_longAnimTime"
+    android:shareInterpolator="true"
+    android:interpolator="@android:anim/overshoot_interpolator" >
+    <translate
+        android:fromYDelta="0%p"
+        android:toYDelta="100%p" />
+    <rotate
+        android:duration="750"
+        android:fromDegrees="-3"
+        android:toDegrees="0" />
+</set>

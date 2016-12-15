@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="setG" >
+    
+    <PreferenceCategory android:title="Translator" >
+                
+        <SwitchPreference
+			android:key="root"
+			android:title="Root Access"
+            android:defaultValue="false"
+			android:summaryOn="Root-Access is available"
+			android:summaryOff="No Privilege"
+			android:icon="@drawable/ic_launcher" >
+        </SwitchPreference>
+        
+        <SwitchPreference 
+	     	android:key="pass"
+	     	android:title="Set Administrator Password"
+	     	android:summaryOn="ON"
+	     	android:summaryOff="OFF"
+	     	android:icon="@drawable/ic_launcher" >
+	     </SwitchPreference>
+	     
+    	<SwitchPreference 
+	     	android:key="passRemote"
+	     	android:title="Set Remote Administrator Password"
+	     	android:icon="@drawable/ic_launcher" >
+	     </SwitchPreference>
+                
+    </PreferenceCategory>
+            
+    <PreferenceCategory android:title="Information" >
+        
+      <Preference 
+	     android:key="how"
+	     android:title="How Imperial-Message Works"
+	     android:icon="@drawable/ic_launcher"
+	     				/>
+       <Preference 
+	     android:key="rate"
+	     android:title="Rate Imperial-Message"
+	     android:icon="@drawable/ic_launcher"
+	     				/>  
+      
+    </PreferenceCategory>
+
+</PreferenceScreen>

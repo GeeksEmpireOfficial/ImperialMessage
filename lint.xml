@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ButtonOrder">
+        <ignore path="res/layout/passcheck.xml" />
+        <ignore path="res/layout/remote_pass.xml" />
+        <ignore path="res/layout/set_pass.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/passcheck.xml" />
+        <ignore path="res/layout/remote_pass.xml" />
+        <ignore path="res/layout/set_pass.xml" />
+    </issue>
+    <issue id="RtlHardcoded">
+        <ignore path="res/layout/passcheck.xml" />
+        <ignore path="res/layout/remote_pass.xml" />
+        <ignore path="res/layout/set_pass.xml" />
+    </issue>
+    <issue id="TextFields">
+        <ignore path="res/layout/activity_main.xml" />
+    </issue>
+</lint>
